@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include<cstdlib>
 
 using namespace std;
@@ -26,4 +26,4 @@ int main()
         printf("\n");
     }
     return 0;
-}
+}*/
