@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -17,13 +18,9 @@ int main() {
 	for (int i = 2; i <= num; i++) {
 		test[i] = test[i - 1] + 1;
 		if (!(i % 3)) {
-			/* cout << i << "," << min(test[i], test[i / 3] + 1);
-			printf("\n"); */
 			test[i] = min(test[i], test[i / 3] + 1);
 		}
 		if (!(i % 2)) {
-			/* cout << i << "," << min(test[i], test[i / 2] + 1);
-			printf("\n"); */
 			test[i] = min(test[i], test[i / 2] + 1);
 		}
 	}
@@ -31,3 +28,4 @@ int main() {
 	cout << test[num] << endl;
 	return 0;
 }
+*/
